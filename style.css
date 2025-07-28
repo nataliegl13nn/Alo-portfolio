@@ -1,50 +1,75 @@
-/* Base Styles */
+/* General Styles */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #fdfdfd;
-  color: #222;
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+header, footer {
+  background-color: #111;
+  color: white;
+  padding: 1rem;
   text-align: center;
 }
 
-/* Header */
-header {
-  background-color: #222;
-  color: #fff;
-  padding: 20px 0;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+nav {
+  background-color: #444;
+  padding: 1rem;
+  text-align: center;
 }
 
 nav a {
+  color: white;
   text-decoration: none;
-  color: #fff;
-  font-weight: bold;
+  margin: 0 10px;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
-/* Main content */
 main {
-  padding: 40px 20px;
+  padding: 2rem;
 }
 
-section {
-  margin-bottom: 40px;
+/* Headings */
+h1, h2, h3 {
+  color: #222;
+  margin-bottom: 1rem;
 }
 
-/* Footer */
-footer {
-  background-color: #eee;
-  padding: 15px 0;
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1.2rem;
+}
+
+/* Links */
+a {
+  color: #007BFF;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Lists */
+ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+footer p {
+  margin: 0;
   font-size: 0.9rem;
 }
